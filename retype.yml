@@ -23,4 +23,4 @@ links:
   target: blank
 
 footer:
-  copyright: "© 2024 Fukumaisaba. All rights reserved.  "
+  copyright: "© 2022-{{ year }} Fukumaisaba. All rights reserved.  "
