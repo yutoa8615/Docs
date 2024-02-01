@@ -5,7 +5,7 @@ url:
 branding:
   title: 福舞鯖
   label: ドキュメント
-  logo: <img src="https://fukumaisaba.net/images/logo.png" alt="fukumaisaba">
+  logo: fukumaisaba.net/images/logo.png
 links:
 - text: Discord
   link: https://dc.fukumaisaba.net
