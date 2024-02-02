@@ -1,6 +1,5 @@
 ---
 label: 福舞鯖へようこせ
-layout: page
 icon: home-fill
 order: 1
 ---
