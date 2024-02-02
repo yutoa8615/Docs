@@ -1,1 +1,4 @@
+---
+label: HOME
+---
 # HOMEについて
