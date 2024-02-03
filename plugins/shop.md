@@ -1,1 +1,4 @@
+---
+label: SHOP
+---
 # Shopについて
