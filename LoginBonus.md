@@ -1,6 +1,6 @@
 ---
 label: ログインボーナス
-order: 100000
+order: 9
 icon: key
 ---
 # ログインボーナス
