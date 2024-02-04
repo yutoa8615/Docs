@@ -27,4 +27,5 @@ CoreProtectはブロックの破壊の記録に関するプラグインです。
 
 ## 参考文献
 
+CoreProtect Documentation
 https://docs.coreprotect.net/commands/
