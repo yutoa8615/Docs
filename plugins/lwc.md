@@ -28,7 +28,7 @@ LWCはチェストやドア、かまどなどの保護ができるプラグイ�
 |`/cautoclose <on/off>`|ドアの自動閉扉の有効/無効を設定します。|
 |`/callowexplosions <on/off>`|爆発での破壊の有効/無効を設定します。|
 
-# 参考文献
+## 参考文献
 
 LWC Wiki
 https://github.com/Hidendra/LWC/wiki
