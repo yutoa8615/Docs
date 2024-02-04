@@ -1,6 +1,6 @@
 ---
 label: 違反報告について
-order: 10
+order: 11
 icon: report
 ---
 # 違反報告について
