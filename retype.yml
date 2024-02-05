@@ -1,6 +1,7 @@
 input: .
 output: .retype
 locale: ja
+favicon: favicon.ico
 url: 
 branding:
   title: 福舞鯖
