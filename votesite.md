@@ -12,9 +12,11 @@ icon: file-badge
 - [mineportal.jp](https://mineportal.jp/servers/clrf6dzw40000vwo2vqzopyu6) (統合版投票可能) <br>
 以上のサイトで福舞鯖に投票していただくと、投票お礼券 が獲得できます。
 
+
 # 投票お礼券の使い方
 CASINO鯖 へ参加して後ろにあるスロットで使用できます。 <br>
 投入口に投票お礼券を入れるとスロットが始まります。
+
 
 # 景品
 - 2000円
