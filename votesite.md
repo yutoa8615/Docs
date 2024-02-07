@@ -5,7 +5,8 @@ icon: file-badge
 ---
 
 # 投票サイトについて
-福舞鯖では一部のマインクラフトサーバーリストサイトにて投票をしていただくと得点がございます 
+福舞鯖では一部のマインクラフトサーバーリストサイトにて投票をしていただくと得点がございます
+
 ・[minecart.jp](https://minecraft.jp/servers/620fbb8ad0215b5c57000000) 
 ・[monocraft.net](https://monocraft.net/servers/Va3QZtlG4PWdAq005iLt) 
 ・[mineportal.jp](https://mineportal.jp/servers/clrf6dzw40000vwo2vqzopyu6) (統合版投票可能) 
