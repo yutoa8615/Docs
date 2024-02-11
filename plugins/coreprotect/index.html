@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760952074968">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760952080781">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>CoreProtectについて</title>
     <meta name="title" content="CoreProtectについて">
+    <meta name="description" content="CoreProtectはブロックの破壊の記録に関するプラグインです。 あなたの土地が荒らされた場合、このプラグインを使用して、荒らしの報告を実施します。">
 
     <!-- Canonical -->
     <link rel="canonical" href="/plugins/coreprotect/">
@@ -19,19 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="/plugins/coreprotect/">
     <meta property="og:title" content="CoreProtectについて">
+    <meta property="og:description" content="CoreProtectはブロックの破壊の記録に関するプラグインです。 あなたの土地が荒らされた場合、このプラグインを使用して、荒らしの報告を実施します。">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/plugins/coreprotect/">
     <meta property="twitter:title" content="CoreProtectについて">
+    <meta property="twitter:description" content="CoreProtectはブロックの破壊の記録に関するプラグインです。 あなたの土地が荒らされた場合、このプラグインを使用して、荒らしの報告を実施します。">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.760952074968" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.760952080781" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760952074968" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760952080781" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760952074968" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760952080781" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -204,6 +207,69 @@
         <span>CoreProtectについて</span>
     </h1>
 </doc-anchor-target>
+<p>CoreProtectはブロックの破壊の記録に関するプラグインです。
+あなたの土地が荒らされた場合、このプラグインを使用して、荒らしの報告を実施します。</p>
+<doc-anchor-target id="コマンド">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#コマンド">#</doc-anchor-trigger>
+        <span>コマンド</span>
+    </h2>
+</doc-anchor-target>
+<p><code v-pre>/co inspect(/co i)</code>: CoreProtectのinspectモード(調査モード)に入ります。inspectモード中に調査したいブロックを破壊する操作で該当するブロックの破壊や設置に関する記録を確認することができます。ブロックの配置操作でブロックを配置しようとした場所の記録を、ドアの開閉などの操作で当該ドア等の開閉などの記録を確認することができます。もう一度コマンドを打つことによりinspectモードを解除することができます。
+なお、inspectモード中はブロックの破壊、設置などの操作を実施することができません。</p>
+<p><code v-pre>/co lookup &lt;params&gt;(/co l &lt;params&gt;)</code>: <params>で指定したパラメーターに該当する記録を検索、表示させることができます。周辺の破壊ログを一括で見たい場合などに便利です。</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>param</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>u:&lt;user&gt;</code></td>
+<td>検索したいユーザーを指定します。<br>例: <code v-pre>u: Player</code> - Playerの記録を検索する</td>
+</tr>
+<tr>
+<td><code v-pre>t:&lt;time&gt;</code></td>
+<td>検索したい時間を指定します。<br>例: <code v-pre>t:30m</code> - 過去30分を指定する</td>
+</tr>
+<tr>
+<td><code v-pre>r:&lt;radius&gt;</code></td>
+<td>検索する範囲を指定します。<br>例: <code v-pre>r:10</code> - 半径10ブロックの記録を検索する</td>
+</tr>
+<tr>
+<td><code v-pre>a:&lt;action&gt;</code></td>
+<td>検索する行動を指定します。<br>例: <code v-pre>a:block</code> - ブロックの設置や破壊に関する記録を検索する</td>
+</tr>
+<tr>
+<td><code v-pre>i:&lt;include&gt;</code></td>
+<td>特定のブロックやエンティティに対しての検索を行います。<br>例: <code v-pre>i:dirt</code> - 土に対する操作を検索する</td>
+</tr>
+<tr>
+<td><code v-pre>e:&lt;exclude&gt;</code></td>
+<td>特定のブロックやエンティティを除外する検索を行います。<br>例: <code v-pre>e:dirt</code> - 土に対する操作を除外する</td>
+</tr>
+<tr>
+<td><code v-pre>#&lt;hashtag&gt;</code></td>
+<td>ハッシュタグを追加して、追加の操作を実施します。</td>
+</tr>
+<tr>
+<td><code v-pre>l:&lt;line&gt;</code></td>
+<td>1ページに表示する行数を指定します。<br>例: <code v-pre>l:10</code> - 1ページあたり10行を表示する</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="参考文献">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#参考文献">#</doc-anchor-trigger>
+        <span>参考文献</span>
+    </h2>
+</doc-anchor-target>
+<p>CoreProtect Documentation
+<a href="https://docs.coreprotect.net/commands/">https://docs.coreprotect.net/commands/</a></p>
 
                                 
                                 <!-- Required only on API pages -->

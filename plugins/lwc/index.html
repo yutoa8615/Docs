@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760952074968">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760952080781">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>LWCについて</title>
     <meta name="title" content="LWCについて">
+    <meta name="description" content="LWCはチェストやドア、かまどなどの保護ができるプラグインです。 以下チェストやドア等を総称してチェストと呼称します。">
 
     <!-- Canonical -->
     <link rel="canonical" href="/plugins/lwc/">
@@ -19,19 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="/plugins/lwc/">
     <meta property="og:title" content="LWCについて">
+    <meta property="og:description" content="LWCはチェストやドア、かまどなどの保護ができるプラグインです。 以下チェストやドア等を総称してチェストと呼称します。">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/plugins/lwc/">
     <meta property="twitter:title" content="LWCについて">
+    <meta property="twitter:description" content="LWCはチェストやドア、かまどなどの保護ができるプラグインです。 以下チェストやドア等を総称してチェストと呼称します。">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.760952074968" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.760952080781" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760952074968" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760952080781" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760952074968" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760952080781" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -204,6 +207,102 @@
         <span>LWCについて</span>
     </h1>
 </doc-anchor-target>
+<p>LWCはチェストやドア、かまどなどの保護ができるプラグインです。<br>
+以下チェストやドア等を総称してチェストと呼称します。</p>
+<doc-anchor-target id="コマンド一覧">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#コマンド一覧">#</doc-anchor-trigger>
+        <span>コマンド一覧</span>
+    </h2>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>コマンド</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/lwc</code></td>
+<td>LWCのヘルプを表示します。</td>
+</tr>
+<tr>
+<td><code v-pre>/cinfo</code></td>
+<td>チェストの保護状況などを表示します。</td>
+</tr>
+<tr>
+<td><code v-pre>/climits</code></td>
+<td>現在の保護数を確認します。</td>
+</tr>
+<tr>
+<td><code v-pre>/cpribate [Player2] [Player3] ...</code>(<code v-pre>/lock</code>)</td>
+<td>自分および引数に指定したプレイヤーのみが開けられるようにします。</td>
+</tr>
+<tr>
+<td><code v-pre>/cpublic</code></td>
+<td>すべてのプレイヤーが開けられるようにします。<br>他プレイヤーによる設定変更を防止します。</td>
+</tr>
+<tr>
+<td><code v-pre>/cdonation</code></td>
+<td>自分のみが中身を取り出すことができるようにします。</td>
+</tr>
+<tr>
+<td><code v-pre>/cpassword &lt;password&gt;</code></td>
+<td>パスワードで保護します。パスワードを知るすべてのプレイヤーが開けることができます。</td>
+</tr>
+<tr>
+<td><code v-pre>/cunlock &lt;password&gt;</code></td>
+<td>パスワードで保護されたチェストを開けられるようにします。</td>
+</tr>
+<tr>
+<td><code v-pre>/cmodify &lt;params&gt; ...</code></td>
+<td>既に存在する保護にプレイヤーやグループを追加します。</td>
+</tr>
+<tr>
+<td><code v-pre>/cpersist</code></td>
+<td>一つのチェストに対して連続して設定が変更できます。</td>
+</tr>
+<tr>
+<td><code v-pre>/cremove</code></td>
+<td>チェストの保護を解除します。</td>
+</tr>
+<tr>
+<td><code v-pre>/cremoveall</code></td>
+<td>自分の保護したすべてのチェストの保護を解除します。</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/chopper &lt;on/off&gt;</code></td>
+<td>チェストへのホッパーでのアイテム出し入れの有効/無効を設定します。</td>
+</tr>
+<tr>
+<td><code v-pre>/credstone &lt;on/off&gt;</code></td>
+<td>レッドストーン動力によるドア開閉の有効/無効を設定します</td>
+</tr>
+<tr>
+<td><code v-pre>/cautoclose &lt;on/off&gt;</code></td>
+<td>ドアの自動閉扉の有効/無効を設定します。</td>
+</tr>
+<tr>
+<td><code v-pre>/callowexplosions &lt;on/off&gt;</code></td>
+<td>爆発での破壊の有効/無効を設定します。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="参考文献">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#参考文献">#</doc-anchor-trigger>
+        <span>参考文献</span>
+    </h2>
+</doc-anchor-target>
+<p>LWC Wiki
+<a href="https://github.com/Hidendra/LWC/wiki">https://github.com/Hidendra/LWC/wiki</a></p>
 
                                 
                                 <!-- Required only on API pages -->
