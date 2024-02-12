@@ -28,7 +28,7 @@ icon: sponsor-tiers
 - Amazonギフトカード
 - PayPay
 
-[ここ](https://forms.gle/acgvDS28rdDX9wa27)からフォームに必要な情報を記入してください。
+[ここ](https://forms.gle/acgvDS28rdDX9wa27)からフォームに必要な情報を記入してください。  
 こちらご不明な点がございましたらdiscordの[お問い合わせ](https://canary.discord.com/channels/976737865671270411/976739193768276019)にて対応します。
 
 ## 注意
