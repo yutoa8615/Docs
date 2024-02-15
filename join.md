@@ -17,5 +17,5 @@ Minecraft を起動し、マルチプレイ のメニューに移動します。
 ![](images/join/step4.png)
 
 そうしたら福舞鯖に参加できます！
-また、ルールしっかり読み楽しい福舞鯖を遊びましょう！
+また、[ルール](https://docs.fukumaisaba.net/rule/)しっかり読み楽しい福舞鯖を遊びましょう！
 ![](images/join/step5.png)
