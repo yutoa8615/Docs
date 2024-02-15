@@ -23,6 +23,7 @@ icon: sponsor-tiers
 - Discordサーバー内の名前の変更
 - Discordの絵文字作成
 - Discordで寄付者ロールの付与
+- Discordでの収支報告書の確認
 
 # 寄付の仕方
 - Amazonギフトカード
