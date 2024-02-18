@@ -1,4 +1,5 @@
 # 福舞鯖ドキュメント
+![GitHub repo size](https://img.shields.io/github/repo-size/MCFukumaisaba/Docs)
 ## 注意事項
 画像・動画はGithubに直接アップロードして表示すること。動画は容量が大きかったらyoutubeを使うこと。
 
