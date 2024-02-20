@@ -3,6 +3,9 @@ label: 寄付について
 order: 10000
 icon: sponsor-tiers
 ---
+:::danger 注意
+500円からが寄付の特典になります。
+:::
 
 # 寄付について
 
@@ -31,6 +34,3 @@ icon: sponsor-tiers
 
 [ここ](https://forms.gle/acgvDS28rdDX9wa27)からフォームに必要な情報を記入してください。  
 こちらご不明な点がございましたらdiscordの[お問い合わせ](https://canary.discord.com/channels/976737865671270411/976739193768276019)にて対応します。
-
-## 注意
-500円からが寄付の特典になります。
