@@ -25,15 +25,5 @@ BAN者がOnwerではないRegionについては削除は実施されません。
 
 ## Mod、クライアントの使用は許可されますか？
 
-### 以下のModの使用は許可されます
-- Optifine
-- Sodium
-- Minimap
-- Light Overlay
-
-### 以下のクライアントの使用は許可されます
-- Lunar Client
-- Feather Client
-- Badlion Client
-
-そのほかに使用したいModやクライアントがある場合、Discordにてお問合せください。個別の判断を実施いたします。
+基本的に、ルールに違反しない限りは可能です。  
+もし、使用が許可されているか不明な場合は、お問い合わせください。
