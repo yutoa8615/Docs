@@ -1,5 +1,6 @@
 ---
 label: HOME
+order: 100000
 ---
 # HOMEについて
 

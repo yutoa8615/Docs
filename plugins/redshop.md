@@ -1,5 +1,6 @@
 ---
 label: RedShop
+order: 100
 ---
 # RedShopについて
 RedShopはお金を支払いレッドストーン信号を発する機能です。<br>
