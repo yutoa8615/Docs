@@ -10,3 +10,9 @@ order: 10000
 自由にブロックなどが置けるようになります。
 <br><br>
 ぜひ購入した土地に建築などをして、[QuickShop](https://docs.fukumaisaba.net/plugins/quickshop/) で販売や買取をしてみてください！
+
+## コマンド説明
+|コマンド名|内容|
+|----|----|
+|/shop member add <ユーザー名>|土地のメンバーを追加します。|
+|/shop member remove <ユーザー名>|土地のメンバーを削除します。|
