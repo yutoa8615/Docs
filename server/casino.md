@@ -42,7 +42,7 @@ order: 1
 ### スクラッチ
 GUIからスクラッチを削り、3つ揃うとお金を手に入れることができます。<br>
 `/scratch buy [枚数]` で1枚300円でスクラッチを購入できます。
-![](/images/casino/scratch.png)
+<img src="images/casino/scratch.png" width="50%">
 購入したスクラッチ(紙)をクリックするとスクラッチGUIが開きます。<br>
 赤色の羊毛をクリックすると一気に削れます。<br>
 <br>
