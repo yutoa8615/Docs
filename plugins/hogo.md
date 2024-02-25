@@ -14,11 +14,11 @@ order: 9999999
 そのオノを使用して始点を左クリックして次に終点を右クリックしてください。<br><br>
 次に今選択した土地を保護するためにいくらかかるのか確認するために<br>
 `/claimproce` とコマンドを実行します。
-![](/images/hogo/claimproce.png)
+<img src="https://docs.fukumaisaba.net/images/hogo/claimproce.png">
 
 そして値段を確認したら<br>
 `/claim (保護名)` を入力してコマンド実行するとお金が支払われて土地の保護ができます。
-![](/images/hogo/claim.png)
+<img src="https://docs.fukumaisaba.net/images/hogo/claim.png">
 
 この保護は WorldGuard というプラグインを使用した保護なので保護した土地にメンバーなどを追加したい場合は<br>
 `WorldGuard メンバー追加方法` などで調べると出てきますのでそちらをご覧ください！
