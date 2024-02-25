@@ -13,12 +13,12 @@ order: 9999999
 `//wand` と実行して木のオノを入手しましょう。<br>
 そのオノを使用して始点を左クリックして次に終点を右クリックしてください。<br><br>
 次に今選択した土地を保護するためにいくらかかるのか確認するために<br>
-`/claimproce` とコマンドを実行します。
-<img src="https://docs.fukumaisaba.net/images/hogo/claimproce.png">
+`/claimproce` とコマンドを実行します。<br>
+<img src="/images/hogo/claimproce.png">
 
 そして値段を確認したら<br>
-`/claim (保護名)` を入力してコマンド実行するとお金が支払われて土地の保護ができます。
-<img src="https://docs.fukumaisaba.net/images/hogo/claim.png">
+`/claim (保護名)` を入力してコマンド実行するとお金が支払われて土地の保護ができます。<br>
+<img src="/images/hogo/claim.png">
 
 この保護は WorldGuard というプラグインを使用した保護なので保護した土地にメンバーなどを追加したい場合は<br>
 `WorldGuard メンバー追加方法` などで調べると出てきますのでそちらをご覧ください！
