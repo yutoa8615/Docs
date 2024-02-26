@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762256473240">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762287438580">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.762256473240" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.762287438580" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.762256473240" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.762287438580" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.762256473240" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.762287438580" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -224,6 +224,45 @@
         <span>QuickShopについて</span>
     </h1>
 </doc-anchor-target>
+<p>QuickShopで作る事によって自動でアイテムを販売・買取してくれます。</p>
+<hr>
+<doc-anchor-target id="販売">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#販売">#</doc-anchor-trigger>
+        <span>販売</span>
+    </h2>
+</doc-anchor-target>
+<p>まず、樽を設置して売りたいアイテムで殴ります。<br>
+そうするとチャットで1個何円で売るかチャットで聞かれるので売りたい金額をチャットで送信しましょう。<br>
+<img src="/images/quickshop/create1.png" width="600"><br>
+そうすると作成は出来ますが、まだ在庫がないので<br>
+樽の中に先ほど樽に殴ったアイテムを入れると在庫が保持できます。</p>
+<hr>
+<doc-anchor-target id="買取">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#買取">#</doc-anchor-trigger>
+        <span>買取</span>
+    </h2>
+</doc-anchor-target>
+<p>まず、販売と同じようにショップを作り<br>
+看板に向かって <code v-pre>/qs buy</code> と実行するとショップを買取モードにする事ができます。</p>
+<hr>
+<doc-anchor-target id="値段の変更">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#値段の変更">#</doc-anchor-trigger>
+        <span>値段の変更</span>
+    </h2>
+</doc-anchor-target>
+<p>看板に向かって <code v-pre>/qs price [金額]</code> と実行すると <code v-pre>[金額]</code> で指定した値段になります。</p>
+<hr>
+<doc-anchor-target id="ショップの削除">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ショップの削除">#</doc-anchor-trigger>
+        <span>ショップの削除</span>
+    </h2>
+</doc-anchor-target>
+<p>看板に向かって <code v-pre>/qs remove</code> と実行するとショップの削除ができます。<br>
+これを実行した後はショップの保護が無くなるので残りの在庫などが入ってたら回収しましょう。</p>
 
                                 
                                 <!-- Required only on API pages -->
