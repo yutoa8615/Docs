@@ -1,6 +1,6 @@
 ---
 label: CoreProtect
-order: 100000000
+order: 1000000000
 ---
 # CoreProtectについて
 

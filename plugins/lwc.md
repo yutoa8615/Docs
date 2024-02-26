@@ -1,6 +1,6 @@
 ---
 label: LWC
-order: 10000000
+order: 100000000
 ---
 # LWCについて
 
