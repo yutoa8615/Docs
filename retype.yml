@@ -1,6 +1,7 @@
 input: .
 output: .retype
 locale: ja
+poweredByRetype: true
 url: 
 branding:
   title: 福舞鯖
