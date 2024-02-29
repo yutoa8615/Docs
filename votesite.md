@@ -23,4 +23,4 @@ CASINO鯖 へ参加して後ろにあるスロットで使用できます。 <br
 - ガーディアン専用コイン
 - 海物語コイン
 
-![](images/votesite/1.png)
+<img src="/images/votesite/1.png" width="600">
