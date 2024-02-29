@@ -10,10 +10,10 @@ icon: report
 荒らしなどによって建物が破壊されて `ロールバック` や` 処罰` などを求める場合<br>
 [公式Discord](https://dc.fukumaisaba.net) に参加していただき `┣📨｜お問い合わせ`  の荒らし報告のチケットを作成してください。<br>
 
-![](/images/report/1.png)
+<img src="/images/report/1.png" width="600"><br>
 
 そうするとチケットがチャンネルが作成されますので、そこで以下の必要情報を送信してください。
 - 荒らされたところで /co i をした結果の画像<br>
 Coreprotectの使い方は [ここをクリック](https://docs.fukumaisaba.net/plugins/coreprotect/) してご覧ください。<br>
 
-![](/images/report/2.png)
+<img src="/images/report/2.png" width="600">
