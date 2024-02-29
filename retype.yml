@@ -21,6 +21,8 @@ links:
 
 edit:
   repo: github.com/MCfukumaisaba/docs
+  branch: "master"
+  label: "ページを編集する" 
 
 footer:
   copyright: "© 2022-{{ year }} Fukumaisaba. All rights reserved.  "
