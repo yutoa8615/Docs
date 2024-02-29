@@ -21,7 +21,7 @@ links:
 
 edit:
   repo: github.com/MCfukumaisaba/docs
-  branch: "master"
+  branch: "main"
   label: "ページを編集する" 
 
 footer:
