@@ -11,6 +11,8 @@ order: 10000000
 |/money pay <プレーヤー名> <金額>|指定した人に指定した金額を送金します。|
 |/money show <プレーヤー名>|<プレーヤー名>の所持金を確認します。|
 
-## その他
-[Jeconの公式解説サイト](https://e-craft.io/bukkit/plugin/jecon/)<br>
+## 参考文献
+
+LWC Wiki<br>
+https://e-craft.io/bukkit/plugin/jecon/<br>
 ※一部コマンドは福舞鯖では使用できません。
