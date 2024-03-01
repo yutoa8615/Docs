@@ -21,11 +21,5 @@ TNTの爆発は無効化されます。
 
 - CoreProtect
 https://docs.fukumaisaba.net/plugins/coreprotect/
-- HOME
-https://docs.fukumaisaba.net/plugins/home/
 - Jobs
 https://docs.fukumaisaba.net/plugins/jobs/
-- LWC
-https://docs.fukumaisaba.net/plugins/lwc/
-- Shop
-https://docs.fukumaisaba.net/plugins/shop/
