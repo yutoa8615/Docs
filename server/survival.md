@@ -27,5 +27,5 @@ https://docs.fukumaisaba.net/plugins/home/
 https://docs.fukumaisaba.net/plugins/jobs/
 - LWC
 https://docs.fukumaisaba.net/plugins/lwc/
-- SHOP
+- Shop
 https://docs.fukumaisaba.net/plugins/shop/
