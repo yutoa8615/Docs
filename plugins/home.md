@@ -1,5 +1,5 @@
 ---
-label: HOME
+label: Home
 order: 100000
 ---
 # HOMEについて
