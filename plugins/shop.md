@@ -1,5 +1,5 @@
 ---
-label: SHOP
+label: Shop
 order: 10000
 ---
 # Shopについて
