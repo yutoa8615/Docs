@@ -13,7 +13,7 @@
 This is an alert.
 !!!
 ```
-![画像](https://cdn.discordapp.com/attachments/1030800241416470558/1202591740259860480/image.png)
+![画像](/images/readme/readme-components1.png)
 
 コンポーネントは[ここ](https://retype.com/components/alert/)にすべて記載されています
 
