@@ -14,7 +14,7 @@ order: 2
 :::
 
 :::primary info
-/spawn で生活鯖へ戻ることができます。
+`/spawn` で生活鯖へ戻ることができます。
 :::
 
 :::warning 注意
@@ -25,11 +25,11 @@ order: 2
 
 - CoreProtect
 https://docs.fukumaisaba.net/plugins/coreprotect/
-- HOME
+- Home
 https://docs.fukumaisaba.net/plugins/home/
 - Jobs
 https://docs.fukumaisaba.net/plugins/jobs/
 - LWC
 https://docs.fukumaisaba.net/plugins/lwc/
-- SHOP
+- Shop
 https://docs.fukumaisaba.net/plugins/shop/
