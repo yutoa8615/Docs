@@ -14,13 +14,13 @@ MinecraftJava版 を起動し、『**マルチプレイ**』 のメニューに�
 次に、『**サーバーの追加**』をクリックします<br>
 <img src="/images/join/java/step2.png" width="600">
 
-『**福舞鯖**』などのサーバー名を入力し、サーバー IP: `mc.fukumaisaba.net`を入力して、[完了]をクリックします。<br>
+『**福舞鯖**』などのサーバー名を入力し、サーバーアドレス: `mc.fukumaisaba.net`を入力して、[完了]をクリックします。<br>
 <img src="/images/join/java/step3.png" width="600">
 
 追加したサーバーをダブルクリックするか、サーバーを選択して『**サーバーに参加**』をクリックします。<br>
 <img src="/images/join/java/step4.png" width="600">
 
-そうしたら福舞鯖に参加できます！<br>
+そしたら福舞鯖に参加できます！<br>
 また、[ルール](https://docs.fukumaisaba.net/rule/)しっかり読み楽しい福舞鯖を遊びましょう！<br>
 <img src="/images/join/java/step5.png" width="600">
 <br><br><br>
