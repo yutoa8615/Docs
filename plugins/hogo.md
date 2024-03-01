@@ -13,8 +13,8 @@ order: 999999
 `//wand` と実行して木のオノを入手しましょう。<br>
 そのオノを使用して始点を左クリックして次に終点を右クリックしてください。<br><br>
 次に今選択した土地を保護するためにいくらかかるのか確認するために<br>
-`/claimproce` とコマンドを実行します。<br>
-<img src="/images/hogo/claimproce.png">
+`/claimprice` とコマンドを実行します。<br>
+<img src="/images/hogo/claimprice.png">
 
 そして値段を確認したら<br>
 `/claim (保護名)` を入力してコマンド実行するとお金が支払われて土地の保護ができます。<br>
